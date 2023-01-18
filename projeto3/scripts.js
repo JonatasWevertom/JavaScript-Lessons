@@ -5,14 +5,17 @@
 // se nao for numero retorna 'Nan'
 
 function fizzBuzz(entrada) {
+    const tres = 3;
+    const cinco = 5;
+
     if (typeof entrada == 'number') {
-        if (entrada % 3 === 0 && entrada % 5 === 0) {
+        if (entrada % tres === 0 && entrada % cinco === 0) {
             return 'FizzBuzz';
         }
-        else if (entrada % 3 === 0) {
+        else if (entrada % tres === 0) {
             return 'Fizz';
         }
-        else if (entrada % 5 === 0) {
+        else if (entrada % cinco === 0) {
             return 'Buzz';
         }
         else {
