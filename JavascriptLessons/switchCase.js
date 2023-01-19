@@ -1,17 +1,17 @@
 let permissao;
 
-permissao = 'gerente';
+permissao = "gerente";
 
 switch (permissao) {
-    case 'comum':
-        console.log('usuario comum');
+    case "comum":
+        console.log("usuario comum");
         break;
-    case 'gerente':
-        console.log('usuario gerente');
+    case "gerente":
+        console.log("usuario gerente");
         break;
-    case 'diretor':
-        console.log('usuario diretor');
+    case "diretor":
+        console.log("usuario diretor");
         break;
     default:
-        console.log("usuario não reconhecido")
+        console.log("usuario não reconhecido");
 }

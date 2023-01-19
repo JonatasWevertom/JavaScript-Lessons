@@ -4,20 +4,20 @@ function criarCelular(marca, tamanhoTela, capacidadeBateria) {
         tamanhoTela,
         capacidadeBateria,
         ligar() {
-            console.log('Fazendo ligação...');
+            console.log("Fazendo ligação...");
         },
     };
-};
+}
 
 function Celular(marca, tamanhoTela, capacidadeBateria) {
-    this.marca = marca,
-    this.tamanhoTela = tamanhoTela,
-    this.capacidadeBateria = capacidadeBateria,
-    this.ligar = function(){
-        console.log('Fazendo Ligação...');
-    };
-};
+    (this.marca = marca),
+        (this.tamanhoTela = tamanhoTela),
+        (this.capacidadeBateria = capacidadeBateria),
+        (this.ligar = function () {
+            console.log("Fazendo Ligação...");
+        });
+}
 
-const celular1 = new Celular('Apple', 7, 6000);
+const celular1 = new Celular("Apple", 7, 6000);
 
 console.log(celular1);
