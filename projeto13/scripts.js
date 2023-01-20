@@ -13,9 +13,9 @@ estaAoVivo
 
 let postagem = {
     titulo: 'titulo',
-    menagem: 'mensagem',
+    mensagem: 'mensagem',
     autor: 'autor',
-    vizualizacoes: 'vizualizacoes',
+    visualizacoes: 'visualizacoes',
     comentarios: [
         { autor: 'autor', mensagem: 'mensagem' },
         { autor: 'autor', mensagem: 'mensagem' },
