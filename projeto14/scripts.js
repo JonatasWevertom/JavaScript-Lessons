@@ -1,4 +1,4 @@
-// Array de objetos de faixa de preço para ser usado em algum site de E-Comerce
+// Array de objetos de faixa de preço para ser usado em algum site de E-Comerce 
 
 let faixas = [
     { tooltip: 'até R$700', minimo: 0, maximo: 700 },
