@@ -19,7 +19,6 @@ function temEnderecoMemoriaIguais(endereco1, endereco2) {
     // comparar se a referencia do objeto aponta para o mesmo local na memória 
 
     return endereco1 === endereco2;
-    
 };
 
 console.log(saoIguais(endereco1, endereco2));
